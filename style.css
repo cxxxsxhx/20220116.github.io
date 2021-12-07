@@ -1,4 +1,4 @@
-@media screen and (min-width:400px) and (max-width:1023px)* {
+@media screen and (min-width:400px) and (max-width:1023px) * {
     word-break: keep-all;
     margin: 0;
     padding: 0;
@@ -8,51 +8,51 @@
 }
 
 /* Text Elements */
-h1,h2 {
+@media screen h1,h2 {
     margin: 2rem;
 }
-h1 {
+@media screen h1 {
     font-size: 1.7em;
     margin-bottom: 20px;
 }
-p {
+@media screen p {
     line-height:1.8;
     margin-bottom: 10px;
 }
 
-a {
+@media screen a {
     color: inherit;
 }
 /* Typography */
 
 /* Content Elements */
-body {
+@media screen body {
     background: #fff;
     color: #000;
     text-align: center;
 }
 
-footer {
+@media screen footer {
     margin:2rem;
     color: #8a8a8a;
 }
 
-img {
+@media screen img {
     width: 100%;
     max-width: 600px;
     height:auto;
 }
-.imageContainer {
+@media screen .imageContainer {
     position:relative;
 }
 
-.grid-container {
+@media screen .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
 
-.grid-item {
+@media screen .grid-item {
     padding: 4px;
     text-align: center;
 }
@@ -60,10 +60,10 @@ img {
 /* Content Elements */
 
 /* NitPicky Stylings */
-.poem {
+@media screen .poem {
     line-height: 2;
 }
-.suffix {
+@media screen .suffix {
     font-size:0.9rem;
 }
 
